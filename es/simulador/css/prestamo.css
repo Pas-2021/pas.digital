@@ -1,0 +1,121 @@
+body{
+   
+    /* background: url("http://imgfz.com/i/gjzUYeI.jpeg") no-repeat center center fixed;*/
+
+    background-size: cover;
+    opacity:1;
+    padding: 0;
+    
+}
+
+.logo{
+    width: 40px;
+    margin: 0 0 0 0;
+
+    float: right;
+}
+.cabecera p{
+    text-align: justify-all;
+    font-family: 'arial';
+    margin-top: 0;
+    font-size: 16px;
+    color: purple;
+    font-weight:bold;
+}
+
+
+
+label{
+    font-family: 'arial';
+    font-weight: bold;
+}
+.form{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border:  2px;
+}
+input{
+    width: 60%;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-right: -6px;
+    background-color: #fdfef7;
+    border: #173441 1.8px solid;
+    align-content: center;
+
+    font-family:Verdana,Helvetica;
+    font-weight:bold;
+    color:black;
+    font-size: 15px;
+    
+}
+
+:-ms-input-placeholder{
+    
+    font-size: 10px;
+
+}
+
+fieldset{
+    align-content: center;
+    border: #173441 2px solid;
+    border-radius: 10px;
+    background-color: #f5e8be;
+}
+
+.text{
+    font-family:Verdana,Helvetica;
+    font-weight:bold;
+    color:white;
+    background:#638cb5;
+    border:0px;
+    width:80px;
+    height:19px;
+}
+
+button{
+    background-color:orangered;
+    border:orange 3px solid;
+    width: 150px;
+    font-family: 'arial';
+    font-size: 15px;  
+    border-radius: 2px;
+    padding: 10px;
+    margin-left:25%;
+    
+    font-family:Verdana,Helvetica;
+    font-weight:bold;
+    color:white;
+    
+}
+i{
+    background-color: #fdfef7;
+    color: rgb(156, 155, 155);
+    border: #173441 1px solid;
+    padding: 6.8px 8px 9.8px 8px;
+    border-left: white;
+    margin-bottom: 10px;
+}
+.tab{
+    border-collapse: collapse;
+    text-align: center;
+    font-family: 'arial';
+    background-color: #fdfef7;
+    border: #173441 2px solid;
+    margin: 0 auto;
+    width: 250PX;
+}
+thead{
+    border: #173441 2px solid;
+    font-weight: bold;
+    background-color: sandybrown;
+}
+tr{
+    border: #173441 2px solid;
+   
+}
+td{
+    border: #173441 2px solid;    
+  
+}
