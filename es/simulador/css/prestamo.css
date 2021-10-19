@@ -119,3 +119,11 @@ td{
     border: #173441 2px solid;    
   
 }
+
+@media (min-width: 400px) {
+    body {
+      padding-top: 0;
+      padding-left: 30rem;
+      padding-right: 30rem;
+    }
+  }
