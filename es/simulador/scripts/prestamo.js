@@ -5,19 +5,23 @@ function gen_table(){
 
     let n2=Number(document.getElementById("couta").value);
 
-    let n4=Number(document.getElementById("duracion-meses").value);
-    
     let n3=Number(document.getElementById("interes").value); 
+
+    let n4=Number(document.getElementById("duracion-meses").value);
+
+    let n5=Date(document.getElementById("fecha-inicio").value);
 
 
     if(n>0){   
-        for(i=1;i<=n2;i++){
+        for(i=1;i<=(n2*n4);i++){
             ca=n/n2;
             d1=ca.toFixed();
             i2=((n*(n3*n4))/100)/n2;
             d2=i2.toFixed();
             r=ca+i2;
-            d3=r.toFixed();
+            d3=(r/n4).toFixed();
+    
+            
             document.getElementById("tab").innerHTML=document.getElementById("tab").innerHTML+
                     `<tr>
                         <td> ${i}</td>
