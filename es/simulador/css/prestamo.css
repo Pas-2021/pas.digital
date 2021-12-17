@@ -37,17 +37,17 @@ label{
 }
 input{
     width: 60%;
-    margin-bottom: 10px;
-    padding: 10px;
+    margin-bottom: 5px;
+    padding: 8px;
     margin-right: -6px;
     background-color: #fdfef7;
-    border: #173441 1.8px solid;
+    border: #17354041 1.8px solid;
     align-content: center;
 
     font-family:Verdana,Helvetica;
     font-weight:bold;
     color:black;
-    font-size: 15px;
+    font-size: 13px;
     
 }
 
