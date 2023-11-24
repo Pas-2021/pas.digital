@@ -55,6 +55,7 @@ ul,
 h4 {
 	margin: 0;
 	padding: 0;
+
 }
 
 a {
@@ -619,6 +620,12 @@ li {
 	margin-bottom: 0.5rem;
 }
 
+p {
+	font-size: 20px;
+	font-weight: 350;
+	text-align: justify;
+}
+
 
 /*************************/
 /*     Media Queries     */
@@ -718,6 +725,7 @@ li {
 		font-size: 30px;
 	}
 
+	
 	.para {
 		width: 100%;
 	}
