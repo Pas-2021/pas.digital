@@ -711,12 +711,13 @@ p {
 	}
 
 	.navbar .social-icons {
-		margin-left: 0.5rem;
+		margin-left: 2.5rem;
+
 	}
 
 	.navbar .fa-stack {
 		margin-right: 0;
-		margin-left: 0.25rem;
+		margin-left: 0.7rem;
 	}
 }
 
@@ -725,6 +726,10 @@ p {
 		font-size: 30px;
 	}
 
+	.navbar .fa-stack {
+		margin-right: 0;
+		margin-left: 0.7rem;
+	}
 	
 	.para {
 		width: 100%;
